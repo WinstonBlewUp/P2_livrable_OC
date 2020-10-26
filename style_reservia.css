@@ -13,55 +13,44 @@
 *{
     font-family: Raleway;
 }
-
-.filter_container
+#div_f_c
 {
-
-    display: flex;
-    flex-direction: row;
-    margin-top: -60px;
-    margin-left: 60px;
+    display: inline;
     
-    justify-content: 
 }
-
-.filter_tile
+#filter_container
 {
-    border-radius: 100px; 
-    border: 3px solid #F2F2F2;  
-    padding-right: 115px;
-    margin-left: 30px;
-
+    margin-left: 50px;
+    margin-top: -46px;
 }
-
-.filter_tile_short
+#filter_container li
 {
-    border-radius: 100px; 
-    border: 3px solid #F2F2F2;  
-    padding-right: 90px;
-    margin-left: 30px;
-}
+    display: inline;
 
-.filter_tile_long
-{
-    border-radius: 100px; 
-    border: 3px solid #F2F2F2;  
-    padding-right: 160px;
-    margin-left: 30px;
 }
 
 .filter
 {
-     background: #DEEBFF;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
+ border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #DEEBFF;
+    
+    
     text-align: center;
-    line-height: 15px;
-    vertical-align: middle;
-    padding: 15px;
+    
 }
 
+.filter_tile
+{
+   
+}
+.filter_text
+{
+    margin-left: -3px;
+}
                               
 a                               /*filter_text*/
 {
@@ -69,8 +58,6 @@ a                               /*filter_text*/
     font-size: 15px;
     font-weight: bold;
     margin-left: 38px;
-    margin-top: -40px;
-   
     text-decoration: none;  
 }
 
@@ -88,10 +75,7 @@ a:hover, a:not(.LOL):active  {
   color:#ffffff;
 }
 
-.filter_title
-{
 
-}
 
 
                                 /* section info */
