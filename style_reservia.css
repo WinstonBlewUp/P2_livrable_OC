@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway.eot');
+    src: url('fonts/Raleway.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Raleway.woff2') format('woff2'),
+         url('fonts/Raleway.woff') format('woff'),
+         url('fonts/Raleway.ttf') format('truetype'),
+         url('fonts/Raleway.svg#Raleway') format('svg');
+    font-weight: normal;
+    font-style: normal;
+            }
+
+*{
+    font-family: Raleway;
+}
+#div_f_c
+{
+    display: inline;
+    
+}
+#filter_container
+{
+    margin-left: 50px;
+    margin-top: -46px;
+}
+#filter_container li
+{
+    display: inline;
+
+}
+
+.filter
+{
+ border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #DEEBFF;
+    
+    
+    text-align: center;
+    
+}
+
+.filter_tile
+{
+   
+}
+.filter_text
+{
+    margin-left: -3px;
+}
+                              
+a                               /*filter_text*/
+{
+    white-space:nowrap;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 38px;
+    text-decoration: none;  
+}
+
+a:link, a:visited  {
+  
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:not(.LOL):active  {
+  background-color: #0065fc;
+  color:#ffffff;
+}
+
+
+
+
+                                /* section info */
+i
+{
+    color: #0065fc;
+}
+
+.info_container
+{
+    margin-top: 50px;
+
+}
+
+.info
+{
+    font-size: 10px;
+
+      width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 5px;
+    vertical-align: middle;
+    padding: 15px; 
+    border: 1px solid #000000;
+
+}
+
+.info_text
+{
+    font-size: 12px;
+  white-space:nowrap;  
+  margin-left: 30px;
+    margin-top: -10px;
+}
+
+
+  
+  
+  
+  
+
+
+
