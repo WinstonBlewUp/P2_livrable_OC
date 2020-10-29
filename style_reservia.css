@@ -130,8 +130,7 @@
         }
                                     
                             /*link modifier*/
-    a:link, a:visited  {
-      
+     a:link,  a:visited  { 
       
       padding: 5px 5px;
       text-align: center;
@@ -190,10 +189,173 @@ i :not(.search__locate_icon)
     }
 
 
-  
-  
-  
-  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+    .header__logo{
+        color: #0065FC;
+        border: 1px solid black;
+        width: 190px;
+        height: 90px;
+
+    }
+    .header__nav{
+        border: 1px solid black;
+        width: 488px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: none;
+
+
+        
+
+    }
+    
+        .header__nav_lodging {
+            border: 1px solid black;
+            
+            color: black;
+            text-decoration: none;
+
+            
+            
+             
+            
+        }
+            .header__nav_lodging:hover{
+                color: #0065FC;
+                border-top: 3px solid red;
+                height: 80px;
+                vertical-align: middle;
+
+                 
+                
+            }
+
+            
+            
+        .header__nav_act {
+            padding-top: 50px;
+
+            border: 1px solid black;
+
+            color:black;
+            text-decoration: none;
+        }
+            .header__nav_act:hover{
+                color: #0065FC;
+            }
+        .header__nav_sub {
+            font-weight: bold;
+            color:#0065FC;
+            border: 1px solid black;
+            text-decoration: none;
+        }
 
 
 
+
+.lodging{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 5%;
+}
+    .lodging__grid{
+        background: #f2f2f2;
+        width: 45%;
+        height: 620px;
+        padding: 10px;
+        line-height: 20px;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+       border: 1px solid black;
+
+    }  
+        .lodging__grid_title{
+            
+            border: 1px solid black;
+
+
+
+        }
+            .lodging__grid_tile_container{
+                padding: 5%;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                height: 90%;
+                border: 1px solid black;
+            }
+                .lodging__grid_tile{
+                    display: flex;
+                    flex-direction:column;
+
+                    border: 1px solid black;
+                    width: 30%;
+                    height: 35%;
+                    background: #ffffff;
+                    border-radius: 5%
+                }  
+                    .lodging__grid_tile_image{
+                        width: 96%;
+                        margin-left: 2%;
+                        margin-right: 3%;
+                        margin-top: 2%;
+                        border-radius: 5% 5% 0% 0%;
+
+                        
+                    }
+                    .lodging__grid_tile_text{
+                        font-size: 10px;
+                        border: 1px solid black;
+                        padding-left: 5% ;
+                    }
+
+                        .lodging__grid_tile_text > h1{
+                           margin:2px;
+                        }
+                        .lodging__grid_tile_text > p{
+                           margin:2px;
+                        }
+                    .lodging__grid_tile_notation{
+                        border: 1px solid black;
+                    }
+    .lodging__most_wanted{
+         background: #f2f2f2;
+         border: 1px solid black;
+         width: 35%;
+          height: 620px;
+          padding: 10px;
+          line-height: 20px;
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+    }        
+        .lodging__most_wanted_title{
+            border: 1px solid black;
+        }
+        .lodging__most_wanted_tile_container{
+            border: 1px solid black;
+            padding: 5%;
+
+                display: flex;
+                flex-direction: row; 
+                flex-wrap: wrap;
+                justify-content: center;
+                justify-content: space-around;
+                height: 90%;
+              
+
+        }
+            .lodging__most_wanted_tile{
+                display: flex;
+                border: 1px solid black;
+                height: 25%;
+                width: 70%;
+                
