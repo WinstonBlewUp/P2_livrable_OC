@@ -269,8 +269,6 @@ i :not(.search__locate_icon)
 .lodging{
     display: flex;
     justify-content: space-around;
-    border:1px solid black;
-    
     padding: 0%;
 }
     .lodging__grid{
@@ -388,7 +386,7 @@ i :not(.search__locate_icon)
         margin-right: 36px;
     }     
         .lodging__most_wanted_title > h2{
-            border: 1px solid black;
+
         }
             .lodging__most_wanted_title_icon > i{
                 margin-top: 20px;
@@ -461,13 +459,16 @@ i :not(.search__locate_icon)
 .act{
     display: flex;
     justify-content: space-around;
-    border:1px solid black;
-    flex-direction: column;
-
+    flex-direction: column;   
 }
     .act__title{
-
+        margin-top: 5%;
+         padding-left: 3%;
+         
     }
+        .act__title > h2{
+            margin-bottom: -3%;
+        }
 
 .act__grid{
     
@@ -475,7 +476,6 @@ i :not(.search__locate_icon)
     width: 100%;
     display: flex;
     flex-direction: row;
-    
 }   
     .act__grid_left{
         
@@ -485,7 +485,6 @@ i :not(.search__locate_icon)
         flex-direction: row;
         justify-content: space-around; 
         align-items: center;
-        border: 1px solid black;
     } 
     .act__grid_right{
         
