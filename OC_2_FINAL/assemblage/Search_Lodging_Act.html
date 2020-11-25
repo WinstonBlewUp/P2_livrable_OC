@@ -6,21 +6,26 @@
 		<link rel="stylesheet" type="text/css"  href="style_reservia.css">
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 	</head>
 	<body>
-		<header class="header">		
-			<img src="/Users/gaby/Desktop/Projet_2_OC/Ressources projet/maquette/Projet 2 - Reservia/images/logo/Reservia@3x.png" class="header__logo">
-		<ul class="header__nav">								
-			<li class="header__nav_lodging">
-				<a href="#Hebergements">Hebergements</a>
-			</li>			
-			<li class="header__nav_act">	
-				<a href="#Activités" >Activités</a>
-			</li>		
-			<li class="header__sub">
-				<a href="#inscrire" >S'inscrire</a>	
-			</li>	
-		</ul>		
+		<header class="header">	
+			<div class="header__logo-sub">
+				<img src="Images/Reservia@3x.png" class="header__logo">
+				<a href="#inscrire" class="header__logo-sub">S'inscrire</a>
+			</div>
+			<br />
+			<ul class="header__nav">								
+				<li class="header__nav_lodging">
+					<a href="#Hebergements">Hebergements</a>
+				</li>			
+				<li class="header__nav_act">	
+					<a href="#Activités" >Activités</a>
+				</li>		
+				<li class="header__sub">
+					<a href="#inscrire" >S'inscrire</a>	
+				</li>	
+			</ul>		
 	</header>
 	
 		<section class="search_all">
@@ -36,9 +41,9 @@
 					<div class="search__locate_form">
 						<input type="text" name="search" class="search__locate_field" placeholder="Ex : Marseille..." size="20">
 					</div>
-					<div>
-							<input type="submit" name="locate" class="search__locate_button" value="rechercher">	
-						</div>					
+							<button type="submit" name="locate" class="search__locate_button" value="rechercher">rechercher</button>
+
+							<button type="submit" name="locate-mobile" class="search__locate_button-mobile"><i class="fas fa-search" id="mobile"></i></button>					
 				</form>
 				<br />
 				<div class="filter-section">
@@ -107,7 +112,7 @@
 			</fieldset>
 		</section>
 
-		<section class="lodging">
+		<section class="lodging" id="Hebergements">
 		
 							<!--flexbox gauche 6 tiles dans une grande-->
 		<div class="lodging__grid">
@@ -117,7 +122,7 @@
 			<div class="lodging__grid_tile_container">
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/la_cannebiere.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/la_cannebiere.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -149,7 +154,7 @@
 				</div>
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_du_port.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/hotel_du_port.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -181,7 +186,7 @@
 				</div>
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_les_mouettes.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/hotel_les_mouettes.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -213,7 +218,7 @@
 				</div>
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_de_la_mer.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/hotel_de_la_mer.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -245,7 +250,7 @@
 				</div>
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/auberge_le_panier.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/auberge_le_panier.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -277,7 +282,7 @@
 				</div>
 				<div class="lodging__grid_tile">
 					<figure class="lodging__grid_tile_image_container">
-						<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_chez_amina.jpg" class="lodging__grid_tile_image" >
+						<img src="Images/hebergements/4_small/hotel_chez_amina.jpg" class="lodging__grid_tile_image" >
 					
 
 						<figcaption class="lodging__grid_tile_annex">
@@ -326,7 +331,7 @@
 
 					
 						<figure class="lodging__most_wanted_tile">
-							<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_le_soleil.jpg" class="lodging__most_wanted_tile_image">	
+							<img src="Images/hebergements/4_small/hotel_le_soleil.jpg" class="lodging__most_wanted_tile_image">	
 											
 								<figcaption class="lodging__most_wanted_tile_annex">
 									<h2>Hôtel le soleil du matin</h2>
@@ -356,7 +361,7 @@
 
 					
 						<figure class="lodging__most_wanted_tile">
-							<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/au_coeur_de_lo.jpg" class="lodging__most_wanted_tile_image">
+							<img src="Images/hebergements/4_small/au_coeur_de_lo.jpg" class="lodging__most_wanted_tile_image">
 						
 						<figcaption class="lodging__most_wanted_tile_annex">
 								<h2>Au coeur de l'eau Chambres d'hôtes</h2>
@@ -386,7 +391,7 @@
 					
 					
 						<figure class="lodging__most_wanted_tile">
-							<img src="/Users/gaby/Desktop/OC_maquette final/assemblage/Images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg" class="lodging__most_wanted_tile_image">
+							<img src="Images/hebergements/4_small/hotel_tout_bleu_et_blanc.jpg" class="lodging__most_wanted_tile_image">
 						
 						<figcaption class="lodging__most_wanted_tile_annex">
 								<h2>Hôtel Tout Bleu et Blanc</h2>
@@ -418,8 +423,9 @@
 			</aside>
 	</section>
 	<br />
+	<br />
 						<!--Deuxième serie de tiles -Activités- -->
-	<section class="act">
+	<section class="act" id="Activités">
 		<div class="act__title">
 			<h2>Activités à Marseille</h2>
 		</div>
@@ -427,7 +433,7 @@
 			
 				<div class="act__grid_tileB">
 					
-						<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/vieux_port.jpg" class="act__grid_tileB_image">
+						<img src="Images/activites/4_small/vieux_port.jpg" class="act__grid_tileB_image">
 					
 					<div class="act__grid_tileB_text">
 						<h2>Vieux port</h2>
@@ -436,7 +442,7 @@
 				<div class="act__grid_tilesS">
 					<div class="act__grid_tile_medium">
 						
-							<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/fort_de_pomegues.jpg" class="act__grid_tile_medium_image">
+							<img src="Images/activites/4_small/fort_de_pomegues.jpg" class="act__grid_tile_medium_image">
 						
 						<div class="act__grid_tile_medium_text">
 							<h2>Fort de Pomègues</h2>
@@ -444,7 +450,7 @@
 					</div>
 					<div class="act__grid_tile_small">
 						
-							<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/ile_du_frioul.jpg" class="act__grid_tile_small_image">
+							<img src="Images/activites/4_small/ile_du_frioul.jpg" class="act__grid_tile_small_image">
 						
 						<div class="act__grid_tile_small_text">
 							<h2>Île du Frioul</h2>
@@ -452,9 +458,10 @@
 					</div>
 				</div>
 			
+			
 				<div class="act__grid_tileB">
 					
-						<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/calanques.jpg" class="act__grid_tileB_image">
+						<img src="Images/activites/4_small/calanques.jpg" class="act__grid_tileB_image">
 					
 					<div class="act__grid_tileB_text">
 						<h2>Parc national des Calanques</h2>
@@ -463,7 +470,7 @@
 				<div class="act__grid_tilesS">
 					<div class="act__grid_tile_small">
 						
-							<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/notre_dame_de_la_garde.jpg" class="act__grid_tile_small_image">
+							<img src="Images/activites/4_small/notre_dame_de_la_garde.jpg" class="act__grid_tile_small_image">
 						
 						<div class="act__grid_tile_medium_text">
 							<h2>Notre-Dame-de-la-Garde</h2>
@@ -471,7 +478,7 @@
 					</div>
 					<div class="act__grid_tile_medium">
 						
-							<img src="/Users/gaby/Documents/GitHub/P2_livrable_OC/Images/activites/4_small/parc_longchamps.jpg" class="act__grid_tile_medium_image">
+							<img src="Images/activites/4_small/parc_longchamps.jpg" class="act__grid_tile_medium_image">
 						
 						<div class="act__grid_tile_medium_text">
 							<h2>Parc Longchamp</h2>
@@ -481,8 +488,7 @@
 			
 		</div>			
 	</section>
-	<!--<footer>
-	<div class="footer">
+	<footer class="footer">
 		<div class="footer__text">
 			<div class="footer__text_about">
 				
@@ -528,7 +534,6 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-</footer>-->
+</footer>
 	</body>
 </html>
