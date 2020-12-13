@@ -788,7 +788,7 @@ body{
    .filter-section{
         width: 100%;
         flex-direction: column;
-        border: 1px solid black;
+        
             
         
     }
@@ -849,7 +849,7 @@ body{
                 }
         .lodging__most_wanted{
             width: 100%;
-            border: 1px solid black;
+            
             border-radius: 0%;
             
         }
