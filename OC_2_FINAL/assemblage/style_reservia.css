@@ -15,6 +15,7 @@
 
 body{
     padding: 15px 80px 0 80px;
+    max-width: 1445px;
 }
 
 .header{
