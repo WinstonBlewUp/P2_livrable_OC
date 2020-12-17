@@ -140,14 +140,22 @@ position: relative;
      
 .search_all{
     margin-left: 0px;
+
+    
     
 }
-    .search_all h2{
+    .search_all_text{
+        
+        height: auto;
+    }
+        .search_all-h2{
+        
+            
 
-    }
-    .search_all p{
+        }
+        .search_all-p{
         margin-top: -15px;
-    }
+        }
 #search{
     border: none;
     padding-left: 0;
@@ -256,6 +264,7 @@ position: relative;
             padding-right: 20px;
             font-size: 20px;
             list-style: none;
+            
 
         }
 
@@ -427,10 +436,14 @@ i :not(.search__locate_icon)
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
+    
+    margin-top: 20px;
+
         
     }     
         .lodging__most_wanted_title > h2{
            margin-left: 30px;  
+           
         }
             .lodging__most_wanted_title_icon > i{
                 margin-top: 20px;
@@ -444,7 +457,7 @@ i :not(.search__locate_icon)
             flex-wrap: wrap;
             justify-content: flex-start;
             margin: 0 0;
-            margin-top: 5%;
+            
             
             
 
@@ -517,9 +530,10 @@ i :not(.search__locate_icon)
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 50px;
+    
     
 
     }   
