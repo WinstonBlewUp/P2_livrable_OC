@@ -436,10 +436,14 @@ i :not(.search__locate_icon)
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
+    
+    margin-top: 20px;
+
         
     }     
         .lodging__most_wanted_title > h2{
            margin-left: 30px;  
+           
         }
             .lodging__most_wanted_title_icon > i{
                 margin-top: 20px;
@@ -453,7 +457,7 @@ i :not(.search__locate_icon)
             flex-wrap: wrap;
             justify-content: flex-start;
             margin: 0 0;
-            margin-top: 5%;
+            
             
             
 
