@@ -222,13 +222,12 @@ position: relative;
 
     }
     .search__filter-container{
-        height: auto;
+        height: 50px;
         display: flex;
         flex-wrap: nowrap;
-        
         width: 100%;
         justify-content: space-around;
-        align-content: space-between;
+        /*align-content: space-between;*/
         
     }
     .search__filter{
@@ -247,6 +246,8 @@ position: relative;
             padding: 16px 16px;
             background-color: #DEEBFF;
             border-radius: 50%;
+            /*margin-left: -40px;*/
+            list-style: none;
         }
 
         .search__filter-title{
@@ -255,11 +256,12 @@ position: relative;
             padding-right: 20px;
             font-size: 20px;
             list-style: none;
+
         }
 
    
 
-        }
+
                                     
                             
      .search__filter a:link, .search__filter a:visited  { 
@@ -377,7 +379,7 @@ i :not(.search__locate_icon)
                             width: 236px;
                             height: 120px;
                             object-fit: cover;
-                            border-radius: 5% 5% 0% 0%;
+                            border-radius: 10% 10% 0% 0%;
 
 
                         }
@@ -699,7 +701,7 @@ body{
                 margin-right: 25px;
             }
         .header__nav{
-            margin: 0px, 0px;
+            margin: 0px 0px;
             width: 100%;
                 justify-content: space-between;
             
@@ -921,7 +923,7 @@ body{
             }
             .act__grid_tilesS, .act__grid_tilesS2{
                 width: 336px;
-                height: 403px
+                height: 403px;
                 margin-bottom: 40px;
                 justify-content: space-around;
                 
@@ -1154,65 +1156,3 @@ body{
         display: none;
     }
 }
-    
-
-
-/* CORRECTION À APPORTER */
-
-/* MOBILE */
-/*@media (max-width: 767px)
-body {
-    margin: 0 20px;
-}
-
-@media (max-width: 767px)
-.header__nav_act {
-    width: 50%;
-    margin-right: 0px;
-    text-align: center;
-}
-
-.header__nav_lodging {
-    width: 50%;
-    border: 1px solid black;
-    text-align: center;
-}
-
-.search_all {
-    margin-left: 0px;
-}
-
-#search{
-    padding-left: 0;
-}
-
-.search__filter-container {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.filter-section {
-    width: 100%;
-    flex-direction: column;
-}
-
-.lodging__most_wanted_tile {
-    background: #ffffff;
-    display: flex;
-    width: 100%;
-    border-radius: 5%;
-    box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.49);
-    margin-left: 0;
-}
-
-.lodging__most_wanted_title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.lodging__most_wanted_title > h2 {
-    margin-left: 0px;
-}*
