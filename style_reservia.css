@@ -227,7 +227,7 @@ position: relative;
         flex-wrap: nowrap;
         width: 100%;
         justify-content: space-around;
-        /*align-content: space-between;*/
+        align-content: space-between;
         
     }
     .search__filter{
