@@ -25,6 +25,7 @@ body{
     flex-direction: row;
     justify-content: space-between;  
     align-content: flex-start;
+    padding: 0px 60px 0 20px;
 }
 .header__logo{
     color: #0065FC;       
@@ -38,12 +39,11 @@ body{
 }
 
 .header__nav{       
-    width: auto;
+    
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     text-decoration: none;        
-    margin-left: -40px;
     width: 350px;
 }
     
@@ -139,7 +139,9 @@ position: relative;
 
      
 .search_all{
-    margin-left: 0px;
+    margin-left: 19px;
+   height: auto;
+    width: auto;
 
     
     
@@ -216,6 +218,8 @@ position: relative;
     display: flex;
     flex-direction: row;
     width: 1000px;
+    height: auto;
+    
     
     
 
@@ -304,7 +308,7 @@ i :not(.search__locate_icon)
     display: flex;
     margin-top: 20px;
     margin-bottom: 10px;
-    margin-left: 30px;
+    
 }
 
 
@@ -327,7 +331,7 @@ i :not(.search__locate_icon)
     { 
      padding-left: 8px; 
      font-size: 12px;
-     margin-top: 28px;
+     
     }
 
 
@@ -352,6 +356,7 @@ i :not(.search__locate_icon)
         display: flex;
         flex-direction: column;
         height: 623px;
+
     }  
         .lodging__grid_title{    
             margin-left: 3%;
@@ -701,6 +706,7 @@ body{
     .header{
         display: flex;
         flex-direction: column;
+        padding: 0 0px;
         
     }
         .header__logo-sub{
@@ -717,11 +723,9 @@ body{
         .header__nav{
             margin: 0px 0px;
             width: 100%;
-                justify-content: space-between;
-            
-            padding-right: 50px;
+            justify-content: space-between;            
             border-bottom: 3px solid #f2f2f2;
-
+            padding-inline-start: 0px;
             
         }
             .header__nav_lodging {
@@ -805,6 +809,9 @@ body{
 
     .search_all{
         margin-left: 0;
+        width: auto;
+        height: auto;
+       
     }
         .search__locate{
             width: 294px;
@@ -828,6 +835,8 @@ body{
    .filter-section{
         width: 100%;
         flex-direction: column;
+        
+        height: 300px;
         
             
         
@@ -915,6 +924,7 @@ body{
         width: auto;
         justify-content: space-around;
         margin-bottom: 50px;
+        
     }
         .act__title h2{
             margin-top: 5%;
@@ -940,7 +950,12 @@ body{
                 height: 403px;
                 margin-bottom: 40px;
                 justify-content: space-around;
+                align-content: space-between;
                 
+            }
+            .act__grid_tilesS2{
+                
+                margin-left: 50px;
             }
         
       
@@ -980,6 +995,7 @@ body{
     body{
         margin: 0 0px;
     }
+
     .header__nav{
         margin-right: 50px;
     }
