@@ -20,6 +20,16 @@ body{
 
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+.star{
+    color: #F2F2F2;
+}
+    .bluestar{
+        color: #0065fc;
+    }
 .header{
     display: flex;
     flex-direction: row;
@@ -700,6 +710,7 @@ i :not(.search__locate_icon)
 @media (max-width: 767px){
 body{
     padding: 0px;
+    margin: 0px;
 }
   
   
@@ -707,6 +718,7 @@ body{
         display: flex;
         flex-direction: column;
         padding: 0 0px;
+          
         
     }
         .header__logo-sub{
@@ -721,9 +733,9 @@ body{
                 margin-right: 25px;
             }
         .header__nav{
-            margin: 0px 0px;
+            margin: 15px 0 0 0;
             width: 100%;
-            justify-content: space-between;            
+            justify-content: space-between;
             border-bottom: 3px solid #f2f2f2;
             padding-left: 0px;
             
@@ -804,13 +816,16 @@ body{
             
 
         .header__sub{
-            display: none;
+            position: absolute;
+            top: 15px;
+            right: 60px;
         }
 
     .search_all{
         margin-left: 0;
         width: auto;
         height: auto;
+         
        
     }
         .search__locate{
@@ -834,17 +849,17 @@ body{
             
    .filter-section{
         width: 100%;
-        flex-direction: column;
-        
-        height: 300px;
-        
-            
-        
+        flex-direction: column;        
+        height: 300px; 
+             
     }
     .search__filter_title{
         width: 70px;
         height: auto;
         margin: 0%;
+        
+        margin-bottom: 20px;
+        margin-top: 20px;
 
     }
    .search__filter-container{
@@ -855,10 +870,6 @@ body{
             margin-bottom: 5px;
             height: 50px;
         }
-    #search__info{
-        margin-top: -50px;
-        
-    }
 
     .lodging{
         justify-content: space-around;
@@ -874,8 +885,8 @@ body{
             .lodging__grid_title{
                 padding-top: 38px;
                 padding-bottom: 18px;
-                margin-left: 70px;
-
+                margin-left: 35px;
+                
             }
 
             .lodging__grid_tile_container{
@@ -891,19 +902,20 @@ body{
             }
             .lodging__grid_tile{
                 width: 336px;
-                height: 198px;
+                height: auto;
                 margin-bottom: 30px;
             }
                 .lodging__grid_tile_image_container{
-                    width: 325px;
+                    width: 330px;
                     height: 114px;
                 }
                 .lodging__grid_tile_image{
                     object-fit: cover;
                 }
+                
         .lodging__most_wanted{
             width: 100%;
-            
+            margin: 0 0 0 0;
             border-radius: 0%;
             
         }
@@ -912,12 +924,20 @@ body{
             }
             .lodging__most_wanted_tile_container{
                 justify-content: center;
-                margin-left: -1px;
+                
+                width: 100%;
+                
+                
                 
             }
                 .lodging__most_wanted_tile{
                     height: 143px;
+                    width: 90%;
+                    margin-left: 15px;
                 }
+                
+                    
+            
                     .lodging__most_wanted_tile_notation{
                         margin-top: 0px;
                     }
@@ -937,16 +957,19 @@ body{
     }
         .act__title h2{
             margin-top: 5%;
-            margin-left: 50px;
+            margin-left: 40px;
+        }
+        .act__grid_tileB, .act__grid_tileB2, .act__grid_tile_medium, .act__grid_tile_small, .act__grid_tile_small2{
+            margin-bottom: 10px;
         }
         .act__grid_tileB, .act__grid_tileB2{
             width: 336px;
             height: 198px;
-            margin-bottom: 40px;
+            margin: 20px auto;
             
         }
         .act__grid_tileB{
-            margin-left: 8%;
+            
         }
             .act__grid_tileB_image{
                 width:100%;
@@ -957,14 +980,14 @@ body{
             .act__grid_tilesS, .act__grid_tilesS2{
                 width: 336px;
                 height: 403px;
-                margin-bottom: 40px;
+                
                 justify-content: space-around;
                 align-content: space-between;
                 
             }
             .act__grid_tilesS2{
                 
-                margin-left: 50px;
+                
             }
         
       
@@ -983,7 +1006,7 @@ body{
 
         }
         .act__grid_tile_small2{
-            margin-right: 2px;
+        
         }
 
             .act__grid_tile_small_image{
