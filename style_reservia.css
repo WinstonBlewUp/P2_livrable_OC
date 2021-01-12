@@ -24,7 +24,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.star{
+.star, .star_most_wanted{
     color: #F2F2F2;
 }
     .bluestar{
@@ -503,7 +503,7 @@ i :not(.search__locate_icon)
                     margin-left: 10px;                    
                 }
                 
-                       .lodging__most_wanted_tile_annex > h2{                        
+                       .lodging__most_wanted_tile_title{                        
                         font-size: 17px;
                         flex-wrap: nowrap; 
 
@@ -1026,6 +1026,9 @@ body{
 @media (min-width : 768px) and (max-width : 1400px){
     body{
         margin: 0 0px;
+        padding: 0 0px;
+        
+
     }
 
     .header__nav{
@@ -1081,9 +1084,17 @@ body{
                 margin-right: 5px;
                 height: 50px;
             }
+    .lodging{
+        display: flex;
+       
+        justify-content: space-between;
+    }
         .lodging__grid{
             padding-bottom: 50px;
-            height: 700px;
+            height: 750px;
+           
+            
+
         }
 
             .lodging__grid_tile_container{
@@ -1091,11 +1102,16 @@ body{
                 flex-wrap: wrap;
                 justify-content: space-around;
                 height: 100%;
+
                 
             }
                 .lodging__grid_tile{
+                    width: 236px;
                     margin-bottom: 20px;
                 }
+                    .lodging__grid_tile_image_container{
+                        width: 225px;
+                    }
             .lodging__grid_show_more {
                 margin-top: 20px;
                 margin-left: 0px;
@@ -1103,9 +1119,14 @@ body{
             }
         
     .lodging__most_wanted{
-        height: 750px;
+        height: 800px;
+
+
         
-    }   
+    }
+        .lodging__most_wanted_title{
+            margin-top: -5px; 
+        }   
         .lodging__most_wanted_tile_container{
            
             display: flex;
@@ -1123,7 +1144,7 @@ body{
             flex-direction: column;
             border-radius: 5%;
             box-shadow: 5px 5px 10px -5px rgba(0,0,0,0.49);
-            height: 180px;
+            
             margin-left: 15px;
 
 
@@ -1139,17 +1160,30 @@ body{
                 }
                 .lodging__most_wanted_tile_annex{
                     margin-top: -1%;
+                     margin-top: -10px; 
                 }   
                     .lodging__most_wanted_tile_annex h2{
-                        font-size: 16px;
                         
+                        
+                    }
+                     .lodging__most_wanted_tile_title{
 
-                    }
+                     }
+                        .lodging__most_wanted_tile_title_long{
+                          
+                            font-size: 15px;
+                           
+                        }
                     .lodging__most_wanted_tile_annex p{
-                        margin-top: -10px;
+                        margin-top: -11px;
+                        
                     }
-                   .lodging__most_wanted_tile_notation{
-                      margin-top: -15px;  
+                   .star_most_wanted{
+                      
+                      margin-top: -11px;
+                    }
+                    .lodging__grid_tile_notation_except{
+
                     }
 
                 #Activités{
