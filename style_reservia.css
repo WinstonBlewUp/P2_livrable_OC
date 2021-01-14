@@ -187,7 +187,8 @@ position: relative;
         text-align:center;   
         justify-content: flex-start;
     align-items: center;
-
+    border: 1px solid red;
+    margin-bottom: 30px;
 }
     #search__locate_icon{
         color: black;
@@ -198,6 +199,7 @@ position: relative;
     }
     .search__locate_form{
         
+
     }
 
     .search__locate_field{
@@ -229,7 +231,7 @@ position: relative;
     flex-direction: row;
     width: 1000px;
     height: auto;
-    
+    border: 1px solid blue;
     
     
 
@@ -935,7 +937,9 @@ body{
                     width: 90%;
                     margin-left: 15px;
                 }
-                
+                    .lodging__most_wanted_tile_title_long{
+                        font-size: 16px;
+                    }
                     
             
                     .lodging__most_wanted_tile_notation{
@@ -1162,11 +1166,7 @@ body{
                     margin-top: -1%;
                      margin-top: -10px; 
                 }   
-                    .lodging__most_wanted_tile_annex h2{
-                        
-                        
-                    }
-                     .lodging__most_wanted_tile_title{
+                    .lodging__most_wanted_tile_title{
 
                      }
                         .lodging__most_wanted_tile_title_long{
