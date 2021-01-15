@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Raleway';
    
-    src: url('fonts/Raleway.ttf') format('truetype'),
+    src: url('fonts/Raleway.ttf') format('truetype');
         
     font-weight: normal;
     font-style: normal;
@@ -609,6 +609,7 @@ i :not(.search__locate_icon)
                     height: 180px;
                     width: 290px;
                     border-radius: 20px 20px 0% 0%;
+                    object-fit: cover;
                 } 
                 .act__grid_tile_medium_text{
                     margin-top: -5%;
@@ -709,6 +710,7 @@ i :not(.search__locate_icon)
 body{
     padding: 0px;
     margin: 0px;
+
 }
   
   
@@ -732,7 +734,7 @@ body{
             }
         .header__nav{
             margin: 15px 0 0 0;
-            width: 100%;
+            width: 95%;
             justify-content: space-between;
             border-bottom: 3px solid #f2f2f2;
             padding-left: 0px;
@@ -779,7 +781,7 @@ body{
                 width:50%;
                 margin-right: 0px;
                 text-align: center;
-                
+               border: 1px solid black; 
 
                             
             }
@@ -826,6 +828,9 @@ body{
          
        
     }
+    .search_all-h2{
+        font-size: 17px;
+    }
         .search__locate{
             width: 294px;
         }
@@ -846,9 +851,10 @@ body{
             }
             
    .filter-section{
-        width: 100%;
+        width: auto;
         flex-direction: column;        
         height: 300px;
+        border: 1px solid black;
 
              
     }
@@ -863,8 +869,11 @@ body{
     }
    .search__filter-container{
         flex-wrap: wrap;
-        justify-content: flex-start;        
+        flex-direction: row;
+        justify-content: flex-start;
+
    }
+    
         .search__filter{
             margin-bottom: 5px;
             height: 50px;
@@ -879,7 +888,7 @@ body{
             width: 100%;
             background: #ffffff;
             height: auto;
-
+            border: 1px solid black;
         }
             .lodging__grid_title{
                 padding-top: 38px;
@@ -891,7 +900,7 @@ body{
             .lodging__grid_tile_container{
                 width: 100%;
                 height: auto;
-                justify-content: center;
+                justify-content:flex-start;
                 display: block;
                 align-content: space-around;
                 flex-direction: row;
@@ -900,13 +909,13 @@ body{
                 
             }
             .lodging__grid_tile{
-                width: 336px;
+                width: 310px;
                 height: auto;
                 margin-bottom: 30px;
 
             }
                 .lodging__grid_tile_image_container{
-                    width: 330px;
+                    width: 304px;
                     height: 114px;
                     margin-top: 0px;
                 }
@@ -966,7 +975,7 @@ body{
             margin-bottom: 10px;
         }
         .act__grid_tileB, .act__grid_tileB2{
-            width: 336px;
+            width: 316px;
             height: 198px;
             margin: 20px auto;
             
@@ -981,7 +990,7 @@ body{
                 
             }
             .act__grid_tilesS, .act__grid_tilesS2{
-                width: 336px;
+                width: 316px;
                 height: 403px;
                 
                 justify-content: space-around;
@@ -1001,7 +1010,7 @@ body{
                  
             }
         .act__grid_tile_medium, .act__grid_tile_small, .act__grid_tile_small2{
-             width: 336px;
+             width: 316px;
             height: 198px;
             margin-left: 0px;
             margin-right: 0px;
@@ -1018,12 +1027,16 @@ body{
                 object-fit: cover;
                  
             }
+.footer{width: 100%;}
 
     .footer__text{
         width: 100%;
         height: auto;
         flex-direction: column;
             }
+
+
+
 }
 
 @media (min-width : 768px) and (max-width : 1400px){
