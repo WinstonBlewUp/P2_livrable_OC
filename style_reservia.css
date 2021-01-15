@@ -227,6 +227,7 @@ position: relative;
     display: flex;
     flex-direction: row;
     width: 100%;
+    max-width: 1000px;
     height: auto;
     
     
@@ -471,13 +472,8 @@ i :not(.search__locate_icon)
             flex-wrap: wrap;
             justify-content: flex-start;
             margin: 0 0;
-            
-            
-            
+       }
 
-            
-
-        }
   
             .lodging__most_wanted_tile{
                 background: #ffffff;
@@ -507,6 +503,9 @@ i :not(.search__locate_icon)
                         flex-wrap: nowrap; 
 
                        } 
+                       .lodging__most_wanted_tile_title_long{
+                        font-size: 17px;
+                       }
                        .lodging__most_wanted_tile_annex > p{
                             
                             margin-top: -10px;
@@ -849,7 +848,8 @@ body{
    .filter-section{
         width: 100%;
         flex-direction: column;        
-        height: 300px; 
+        height: 300px;
+         
              
     }
     .search__filter_title{
