@@ -268,7 +268,7 @@ position: relative;
             padding: 16px 16px;
             background-color: #DEEBFF;
             border-radius: 50%;
-            /*margin-left: -40px;*/
+            
             list-style: none;
         }
 
@@ -335,6 +335,7 @@ i :not(.search__locate_icon)
         border-radius: 50%;
         text-align: center;
         margin-top: 7px;
+        color: #0065fc;
     }
 
     #search__info_text
@@ -873,6 +874,12 @@ body{
             margin-bottom: 5px;
             height: 50px;
         }
+        .search__filter-title{
+            font-size: 15px;
+        }
+        .search__info_icon{
+
+        }
 
     .lodging{
         justify-content: space-around;
@@ -1275,5 +1282,10 @@ body{
 @media(min-width: 768px){
     .search__locate_button-mobile{
         display: none;
+    }
+}
+@media(max-width:320px ){
+    .search__filter-title{
+        font-size: 11px;
     }
 }
