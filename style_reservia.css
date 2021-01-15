@@ -276,7 +276,7 @@ position: relative;
             font-weight: bold;
             padding-left: 20px;
             padding-right: 20px;
-            font-size: 20px;
+            font-size: 18px;
             list-style: none;
             
 
@@ -734,7 +734,7 @@ body{
             }
         .header__nav{
             margin: 15px 0 0 0;
-            width: 95%;
+            width: 100%;
             justify-content: space-between;
             border-bottom: 3px solid #f2f2f2;
             padding-left: 0px;
@@ -781,9 +781,7 @@ body{
                 width:50%;
                 margin-right: 0px;
                 text-align: center;
-               border: 1px solid black; 
-
-                            
+                        
             }
                 .header__nav_act a{
                     
@@ -854,9 +852,6 @@ body{
         width: auto;
         flex-direction: column;        
         height: 300px;
-        border: 1px solid black;
-
-             
     }
     .search__filter_title{
         width: 70px;
@@ -888,7 +883,7 @@ body{
             width: 100%;
             background: #ffffff;
             height: auto;
-            border: 1px solid black;
+            
         }
             .lodging__grid_title{
                 padding-top: 38px;
@@ -912,6 +907,7 @@ body{
                 width: 310px;
                 height: auto;
                 margin-bottom: 30px;
+
 
             }
                 .lodging__grid_tile_image_container{
@@ -975,7 +971,7 @@ body{
             margin-bottom: 10px;
         }
         .act__grid_tileB, .act__grid_tileB2{
-            width: 316px;
+            width: 310px;
             height: 198px;
             margin: 20px auto;
             
@@ -990,7 +986,7 @@ body{
                 
             }
             .act__grid_tilesS, .act__grid_tilesS2{
-                width: 316px;
+                width: 310px;
                 height: 403px;
                 
                 justify-content: space-around;
@@ -1010,7 +1006,7 @@ body{
                  
             }
         .act__grid_tile_medium, .act__grid_tile_small, .act__grid_tile_small2{
-             width: 316px;
+             width: 310px;
             height: 198px;
             margin-left: 0px;
             margin-right: 0px;
