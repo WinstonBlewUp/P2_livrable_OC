@@ -849,7 +849,7 @@ body{
         width: 100%;
         flex-direction: column;        
         height: 300px;
-         
+
              
     }
     .search__filter_title{
@@ -903,10 +903,12 @@ body{
                 width: 336px;
                 height: auto;
                 margin-bottom: 30px;
+
             }
                 .lodging__grid_tile_image_container{
                     width: 330px;
                     height: 114px;
+                    margin-top: 0px;
                 }
                 .lodging__grid_tile_image{
                     object-fit: cover;
