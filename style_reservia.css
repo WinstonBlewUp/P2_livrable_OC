@@ -258,7 +258,7 @@ position: relative;
         border-radius: 30px;
         position: relative;
         align-items: center;
-
+        
     }
 
         .search__filter-icon{
@@ -850,7 +850,7 @@ body{
             }
             
    .filter-section{
-        width: auto;
+        width:320px;
         flex-direction: column;        
         height: 300px;
     }
@@ -876,6 +876,8 @@ body{
         }
         .search__filter-title{
             font-size: 15px;
+            margin-left: 0px;
+            padding-left: 5px;
         }
         .search__info_icon{
 
@@ -1286,6 +1288,9 @@ body{
 }
 @media(max-width:320px ){
     .search__filter-title{
-        font-size: 11px;
+        font-size: 14px;
     }
+     .search__filter{
+        width: auto;
+     }
 }
